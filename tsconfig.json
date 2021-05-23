@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "incremental": true,
+    "target": "ES5",
+    "module": "commonjs",
+    "lib": ["DOM", "ES2016", "ES2015"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true ,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSourceMap": true,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

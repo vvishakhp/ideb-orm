@@ -1,0 +1,35 @@
+{
+  "name": "idb-orm",
+  "version": "0.0.1",
+  "description": "ORM for Indexed DB",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvishakhp/ideb-orm.git"
+  },
+  "keywords": [
+    "IDB",
+    "IndexedDB",
+    "ORM"
+  ],
+  "author": "Vishakh Warrier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vvishakhp/ideb-orm/issues"
+  },
+  "homepage": "https://github.com/vvishakhp/ideb-orm#readme",
+  "devDependencies": {
+    "@types/node": "^15.6.0",
+    "@types/webpack": "^5.28.0",
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
